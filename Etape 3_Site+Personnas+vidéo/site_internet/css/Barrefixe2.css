@@ -1,0 +1,129 @@
+
+
+html{
+  box-sizing: border-box;
+}
+/*body {
+
+  background: url("Rslider131.png") no-repeat center fixed;
+  -webkit-background-size:cover;
+}
+*/
+
+
+
+
+
+#barre_fixe
+{
+position: fixed;
+top: 0px;
+width: 100%;
+background: #FFFF44;
+}
+
+#barre_fixe ul {
+	  /*plus bo sans le margin et padding*/
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #FFFF81;
+	  /*enleve les points*/
+	  list-style-type: none;
+		/*Met en ligne*/
+		display: flex;
+	}
+ 
+/* bare entre les listes */
+/*
+#barre_fixe li {
+	  float: left;
+	  border-right:1px solid #bbb;
+	}
+*/
+
+/**/
+/**/
+#barre_fixe .list :last-child {
+	  border-right: none;
+	}
+
+#barre_fixe .list  a {
+		/*Met en block ...logique*/
+	  display: block;
+	  font-family: 'Permanent Marker', cursive;
+	  color: #F1BF00;
+	  text-align: left;
+	  /*Mini barre sans*/
+	  padding: 1% 50%;
+	  width: 20%; height: 20%;
+	  /*Enleve la ligne en dessous*/
+	  text-decoration: none;
+	  /*met une petite bordur*/
+	  
+	}
+	
+#barre_fixe .list1  a {
+		/*Met en block ...logique*/
+	  display: block;
+	  color: #F19F00;
+	  text-align: left;
+	  font-size: 35px;
+	  /*Mini barre sans*/
+	  padding: 1% 50%;
+	  width: 20%; height: 20%;
+	  /*Enleve la ligne en dessous*/
+	  text-decoration: none;
+	  /*met une petite bordur*/
+	  border-bottom: 2px solid transparent;
+	}
+	
+#barre_fixe .list > a:hover:not(.active) {
+	  background-color: #FFFF69;
+	}
+
+#barre_fixe	.active  {
+	  display: block;
+	  background-color: #FFFF4F;
+	  font-family: 'Gloria Hallelujah', cursive;
+	  /*font-family: 'Inspiration', cursive;
+	  font-family: 'Oooh Baby', cursive;
+	  
+	  font-variant: small-caps ;*/
+	}
+	
+
+#barre_fixe > ul li:hover .sous{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+
+#barre_fixe .list .sous{
+    display: none;
+    box-shadow: 3px 3px 3px #FFFF43;
+    background-color: #FFFFB1;
+    position: absolute;
+    
+	z-index: 1000;
+}
+#barre_fixe .list .sous li{
+    flex: 1 1 auto;
+    text-align: left;
+	
+}
+#barre_fixe .list .sous a{
+    padding: 15% 40%;
+    border-bottom: none;
+}
+#barre_fixe .list .sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(255,255,143);
+}
+.list > a::after{
+    position:right;
+	content:"  🐝";
+    font-size: 100%;
+}
+

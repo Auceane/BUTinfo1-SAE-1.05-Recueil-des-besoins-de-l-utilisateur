@@ -1,0 +1,50 @@
+.navbar-brand
+{
+	color: #F19F00;
+	
+	  font-family: 'Gloria Hallelujah', cursive;
+	  font-size:30px
+	  
+}
+
+
+
+
+
+
+	
+.fixe{
+	
+    top: 0px;
+    width: 100%;
+    background: #FFFF44;
+}
+
+
+
+.nav-link
+{
+	color: #F1BF00;
+	  text-align: left;
+}
+
+
+
+.bzz
+{
+	background: url("honey_PNG8h.png") no-repeat center;
+	text-align: center;
+    padding: 3px;
+	color:black;
+}
+ion-icon
+{
+	font-size: 30px
+}
+
+
+
+
+
+
+

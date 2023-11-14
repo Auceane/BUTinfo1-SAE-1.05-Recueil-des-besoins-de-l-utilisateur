@@ -1,0 +1,263 @@
+body 
+{
+	font-family: "Comic Sans MS",Comic,cursive;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+	background: url("slider131.png") no-repeat center fixed;
+	-webkit-background-size:cover;
+}
+
+
+.sommaire {
+	display : flex;
+	list-style-type: none;
+	 height:550px ;width:900px;
+	 
+	 background : url("Op.png") no-repeat;
+	 
+	 
+	 /*background-color: red;*/
+	 background-size:1000px ;
+	 background-position:center;
+	 border-radius:10%;
+	 text-align: center;
+	 justify-content:center;
+	 align-items:center;
+	}
+.S1T 
+{
+	text-shadow: -1px 1px 1px #246900;
+}
+.sommaire2 {
+	 display : flex;
+	 list-style-type: none;
+	 text-decoration: none;
+	 height:550px ;width:900px;
+	 
+	 background : url("Op.png") no-repeat;
+	 text-align:center;
+	 /*background-color: red;*/
+	 border-radius:10%;
+	 background-size:920px ;
+	 background-position:center;
+	 justify-content:center;
+	 align-items:center;
+	 
+	}
+.S2T 
+{
+	text-shadow: 1px 1px 1px #246900;
+}
+
+.Luxurious{
+		font-size:21px
+	}
+	
+
+.Mochiy
+{
+	text-shadow: 2px 2px 2px gold;
+	
+	
+}
+
+.titre.gauche
+{
+	color:black;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	text-shadow: -3px 2px 2px gold;
+	font-size:40px;
+}
+.titre.droite
+{
+	color:black;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	text-shadow: 3px 2px 2px gold;
+	font-size:40px;
+}
+
+#Boite 
+{
+	text-align:center;
+	background-color:#FFFFE4;
+	margin: 10% 20% 10% 20%;
+	border-radius: 25%;
+	color:#E0A000;
+}
+.profil
+{
+	display:flex ;
+	flex-wrap:wrap ;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	
+}
+
+.profil div
+{
+	background-color: rgba(255,255,255,0.5);
+	margin: 1% 20%;
+	padding:20px;
+	border-radius: 25%;
+}
+.profil img{
+		height:150px
+	}
+.listel
+{
+	display:flex ;
+	flex-wrap:wrap ;
+	align-items:center;
+	justify-content:center;
+	text-align:left;
+	background-color: rgba(255,255,255,0.5);
+	margin: 1% 20%;
+	padding:20px;
+	
+	list-style: url("validation-maintenancen.png") ;
+	
+	
+}
+
+.Garamond
+{
+	text-shadow: 2px 2px 2px gold;
+}
+
+@media (min-width:501px) and (max-width: 1050px) {
+	footer{
+		font-size:10px
+	}
+	.Garamond{
+		font-size:15px
+	}
+	.Luxurious{
+		font-size:11px
+	}
+	
+	.sommaire{
+		width:550px;
+		height:275px;
+		background-size:460px
+	}
+	
+	.sommaire2{
+		width:450px;
+		height:275px;
+		background-size:460px
+	}
+	
+	
+	.S1T{
+		font-size:10px
+	}
+	
+	
+	.S2T{
+		font-size:10px
+	}
+	
+	
+	#Boite{
+		font-size:10px;
+		margin: 10% 15% 10% 15%;
+		border-radius: 15%;
+		
+	}
+	.titre.droite{
+		font-size:25px
+	}
+	
+	.titre.gauche{
+		font-size:25px
+	}
+	.small-caps {
+		font-size:25px
+	}
+	.profil img{
+		height:110px
+	}
+	.profil div
+	{
+		font-size:13px;
+		margin: 1% 10% ;
+		padding:10px;
+	}
+	.listel
+	{
+		font-size:13px;
+		margin: 1% 10% ;
+		
+	}
+	
+	
+}
+
+
+@media (max-width: 500px) {
+	footer{
+		font-size:10px
+	}
+	.Garamond{
+		font-size:13px
+	}
+	.Luxurious{
+		font-size:11px
+	}
+	.sommaire{
+		width:300px;
+		height:200px;
+		background-size:280px
+	}
+	
+	.sommaire2{
+		width:300px;
+		height:200px;
+		background-size:280px
+	}
+	
+	
+	.S1T{
+		font-size:10px
+	}
+	
+	
+	.S2T{
+		font-size:10px
+	}
+	
+	
+	#Boite{
+		font-size:10px;
+		margin: 10%;
+		border-radius: 10%;
+	}
+	.titre.droite{
+		font-size:15px
+	}
+	
+	.titre.gauche{
+		font-size:15px
+	}
+	.small-caps {
+		font-size:15px
+	}
+	.profil img{
+		height:90px
+	}
+	.profil div
+	{
+		font-size:10px;
+		margin: 1% 5%;
+		padding:5px;
+	}
+	.listel
+	{
+		font-size:10px;
+		margin: 1% 5%;
+		padding:5px;
+	}
+}

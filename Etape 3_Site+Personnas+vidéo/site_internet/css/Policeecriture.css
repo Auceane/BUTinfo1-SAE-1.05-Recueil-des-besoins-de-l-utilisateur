@@ -1,0 +1,36 @@
+.small-caps 
+{
+	font-variant:small-caps;
+}
+
+.permanentmak {
+	font-family: 'Permanent Marker', cursive;
+	color:black
+}
+
+.MooLalA 
+{
+font-family: 'Moo Lah Lah', cursive;
+text-shadow: 3px 2px 2px gold;
+color:black
+}
+.Garamond
+{
+	font-family: 'EB Garamond', serif;
+	
+	color: black
+	
+}
+.Mochiy
+{
+	font-family: 'Mochiy Pop P One', sans-serif;
+	color:black;
+	font-style:oblique
+}
+.Luxurious
+{
+	font-family: 'Luxurious Roman', cursive;
+	color:black;
+	font-style:oblique
+	
+}

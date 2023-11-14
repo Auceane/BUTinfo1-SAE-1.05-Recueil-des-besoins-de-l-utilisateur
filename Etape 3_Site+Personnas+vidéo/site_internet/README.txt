@@ -1,0 +1,1 @@
+La page d'accueil du site internet est, a ouvrir en premier, et est le fichier Page_accueil.html 

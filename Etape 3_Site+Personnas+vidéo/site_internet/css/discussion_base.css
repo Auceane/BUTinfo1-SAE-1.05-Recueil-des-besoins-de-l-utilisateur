@@ -1,0 +1,107 @@
+
+body 
+{
+	
+	font-family: "Comic Sans MS",Comic,cursive;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+	
+	
+	background: url("sunflowers-list-of-images-flower-wallpaper-5a9d79a03de42300371c03b4.jpg") no-repeat center fixed;
+	-webkit-background-size:cover;
+}
+.boite
+{
+	flex-direction: column;
+	align-items:flex-end;
+	margin: 12% 21%;
+	
+	color:black;
+	border-radius: 20%;
+	
+	
+}
+
+input .mess
+{
+	width:auto;
+	border:0px
+}
+
+input .envoie
+{
+	width:10%
+}
+
+
+
+.boite .b
+{
+	background-color:#DFDFFF
+	
+}
+
+.boite .t
+{
+	background-color:white
+	
+}
+.me
+{
+	margin:0% 50% 50% 3%;
+	background-color:white ; 
+	border-radius: 5% ;
+	border:1px;
+	padding:3px
+	
+}
+
+
+@media (min-width:701px) and (max-width:1000px) {
+	.boite{
+		font-size:15px;
+		margin: 10% 18%
+	}
+	.me
+	{
+		font-size:15px
+	}
+	footer{
+		font-size:10px
+	}
+	
+	
+	
+}
+
+@media (min-width:401px) and (max-width:700px) {
+	.boite{
+		font-size:10px;
+		margin: 10% 15%
+	}
+	.me
+	{
+		font-size:10px
+	}
+	
+	footer{
+		font-size:10px
+	}
+	
+}
+@media (max-width:400px) {
+	.boite{
+		font-size:8px;
+		margin: 8% 13%
+	}
+	.me
+	{
+		font-size:8px
+	}
+	footer{
+		font-size:10px
+	}
+	
+}

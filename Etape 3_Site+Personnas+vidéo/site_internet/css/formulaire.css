@@ -1,0 +1,104 @@
+body 
+{
+	
+	font-family: "Comic Sans MS",Comic,cursive;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+	
+	
+	background: url("a_sunny_days_end-Photos_HD_Wallpaper_2560x1600.jpg") no-repeat center fixed;
+	-webkit-background-size:cover;
+}
+.rouge
+{
+	color:#2F0000
+}
+
+
+.centre
+{
+	text-align:center;
+	
+	margin: 20% 20% 10% 20%;
+	border-radius: 25%;
+	color: #00002F
+	
+}
+.centre li
+{
+	text-decoration: none;
+	
+}
+input
+{
+	border-radius: 	25%;
+	
+}
+.Boite 
+{
+	text-align:center;
+	background-color:rgba(255, 255, 228, 0.5);
+	margin: 10% 15%;
+	border-radius: 20%;
+	color:black;
+	
+	
+}
+.lit
+{
+	font-size:15px
+}
+
+@media (min-width:701px) and (max-width:1000px) {
+	.centr{
+		font-size:15px
+	}
+	.centre{
+		border-radius: 15%;
+	}
+	.lit
+{
+	font-size:13px
+}
+footer{
+		font-size:10px
+	}
+	
+	
+}
+
+@media (min-width:401px) and (max-width:700px) {
+	.centr{
+		font-size:10px
+	}
+	.centre{
+		border-radius: 10%;
+	}
+	.lit
+{
+	font-size:8px
+}
+footer{
+		font-size:10px
+	}
+	
+	
+}
+@media (max-width:400px) {
+	.centr{
+		font-size:8px
+	}
+	.centre{
+		border-radius: 8%;
+	}
+	.lit
+{
+	font-size:7px
+}
+footer{
+		font-size:10px
+	}
+	
+}

@@ -1,0 +1,75 @@
+body 
+{
+	
+	font-family: "Comic Sans MS",Comic,cursive;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+	
+	
+	background: url("Façade-chamigny-png.png") no-repeat center fixed;
+	-webkit-background-size:cover;
+}
+
+.boite
+{
+	text-align:center;
+	background-color: rgba(220, 223, 255, 0.6);
+	margin: 12% 21%;
+	
+	color:black;
+	margin: 1% 20%;
+	padding:20px;
+	border-radius: 25%;
+}
+
+.boite img{
+		height:150px
+	}
+
+	
+@media (min-width:761px) and (max-width: 1050px) {
+	footer{
+		font-size:10px
+	}
+	.Garamond{
+		font-size:15px
+	}
+	.Luxurious{
+		font-size:11px
+	}
+	.boite img{
+		height:110px
+	}
+	.boite 
+	{
+		font-size:13px;
+		margin: 1% 10% ;
+		padding:10px;
+	}
+	
+	
+}
+
+@media (max-width: 760px) {
+	footer{
+		font-size:10px
+	}
+	.Garamond{
+		font-size:13px
+	}
+	.Luxurious{
+		font-size:11px
+	}
+	.boite img{
+		height:90px
+	}
+	.boite 
+	{
+		font-size:10px;
+		margin: 1% 5%;
+		padding:5px;
+	}
+	
+}

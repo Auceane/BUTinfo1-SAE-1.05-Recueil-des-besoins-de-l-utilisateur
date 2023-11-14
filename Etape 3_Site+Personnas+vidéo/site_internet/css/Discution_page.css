@@ -1,0 +1,43 @@
+body
+{
+	font-family: "Comic Sans MS",Comic,cursive;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+	background: url("sunflowers-list-of-images-flower-wallpaper-5a9d79a03de42300371c03b4.jpg") no-repeat center fixed;
+	-webkit-background-size:cover;
+}
+
+#barre_fixe .right  a {
+		/*Met en block ...logique*/
+	  display: block;
+	  float: right;
+	  font-family: 'Permanent Marker', cursive;
+	  color: #F1BF00;
+	  text-align: center;
+	  /*Mini barre sans*/
+	  padding: 15px 5px;
+	  width: 60px; height: 31px;
+	  font-size: 30px;
+	  /*Enleve la ligne en dessous*/
+	  text-decoration: none;
+	  /*met une petite bordur*/
+	  
+	  
+	}
+#barre_fixe .right > a:hover:not(.active) 
+{
+	  background-color: #FFFF69;
+}
+.right{
+	float: right;
+}
+#Boite 
+{
+	text-align:center;
+	background-color:#FFFFE4;
+	margin: 10% 20% 10% 20%;
+	border-radius: 25%;
+	color:#E0A000;
+}
